@@ -2,12 +2,20 @@
 *.o
 *.pb.cc
 *.pb.h
+*~
 .deps
 Makefile
 Makefile.in
 .cproject
 .project
 compile_commands.json
+aminclude_static.am
+
+# Coverage artifacts
+*.gcda
+*.gcno
+*-coverage.info
+*-coverage
 
 /INSTALL
 /aclocal.m4
@@ -27,5 +35,6 @@ src/include/config.h.in~
 src/include/stamp-h1
 /test-driver
 /VERSION
+/VERSION.stamp
 /scripts/mosh
 src/include/version.h
